@@ -79,9 +79,6 @@ function askQuestion() {
 }
     function drinkAmount() {
         let paragraph = document.getElementById("drinkamount");
-        let random = Math.floor(Math.random() * 10);
-        if (random === 0) {
-            random = 1;
-        }
+        let random = Math.floor(Math.random() * 3);
         paragraph.innerHTML = random;
     }
